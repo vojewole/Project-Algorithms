@@ -50,7 +50,7 @@ class SLL {
     this.head = node;
 
     while (this.head) {
-      console.log(this.head.value.toString());
+      console.log(this.head.data.toString());
 
       this.head = this.head.next;
     }
